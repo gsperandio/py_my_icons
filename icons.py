@@ -17,9 +17,9 @@ from PIL import Image
 import glob
 import cairosvg
 
-svg_folder = "C:\\Users\\GSperandio\\OneDrive - SEBRAE\\Área de trabalho\\Python\\newIcons"
+svg_folder = "Origem"
 
-output_folder = "C:\\Users\\GSperandio\\OneDrive - SEBRAE\\Área de trabalho\\Python\\newOutputo"
+output_folder = "Destino"
 
 svg_files = glob.glob(os.path.join(svg_folder, '*.svg'))
 
